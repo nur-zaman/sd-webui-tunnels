@@ -31,3 +31,9 @@ def preload(parser: argparse.ArgumentParser):
         action="store_true",
         help="use cloudflared and remotemoe",
     )
+
+    parser.add_argument(
+        "--webhook",
+        type=str,
+        help="use a webhook URL to share the interface",
+    )

@@ -1,5 +1,9 @@
 # sd-webui-tunnels
 
+this fork sends the url to discord via webhook
+
+simply add `--webhook <webhookurl>` to the args
+
 Tunneling extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ## Usage
